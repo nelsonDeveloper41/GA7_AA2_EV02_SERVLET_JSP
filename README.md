@@ -94,7 +94,7 @@ mysql --version  # Debe mostrar MySQL 8.0+
 
 #### **1. Clonar el Repositorio**
 ```bash
-git clone [URL_DE_TU_REPOSITORIO_AQUI]
+git clone https://github.com/nelsonDeveloper41/GA7_AA2_EV02_SERVLET_JSP.git
 cd GA7_AA2_EV02_SERVLET_JSP
 ```
 
