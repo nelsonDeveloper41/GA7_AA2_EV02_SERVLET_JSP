@@ -1,0 +1,52 @@
+# ===================================================================
+# Archivo .gitignore para Proyecto Java Web con Maven y NetBeans
+# Evidencia: GA7-AA2-EV02
+# ===================================================================
+
+# 1. Archivos y carpetas generados por el Build (Maven)
+# Estos archivos se crean automáticamente al compilar y empaquetar.
+# Nunca deben estar en el repositorio.
+/target/
+*.war
+*.jar
+*.ear
+
+# 2. Archivos de Log
+# Los logs son específicos de cada ejecución y no deben versionarse.
+*.log
+
+# 3. Archivos y carpetas de IDEs
+# Configuración específica del entorno local de cada desarrollador.
+
+# NetBeans (Tu IDE principal)
+/nbproject/private/
+/nb-configuration.xml.orig
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+.nb-gradle/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# VS Code
+.vscode/
+
+# 4. Archivos del Sistema Operativo
+# Basura generada por los sistemas operativos.
+.DS_Store
+Thumbs.db
+
+# 5. Archivos temporales y de respaldo del editor
+*~
+*.swp
+*.swo
